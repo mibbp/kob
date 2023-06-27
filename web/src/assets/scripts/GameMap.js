@@ -88,7 +88,7 @@ export class GameMap extends AcGameObject {
 
         // 聚焦canvas
 
-        console.log(this.ctx.canvas);
+
         const [snake0, snake1] = this.snakes;
 
         this.ctx.canvas.addEventListener("keydown", e => {
